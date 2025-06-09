@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syra Aromas</title>
+    <style>
+        :root {
+            --verde-pastel: #cbe4c4;
+            --gris-suave: #f5f5f5;
+            --texto-oscuro: #333;
+            --blanco: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: var(--gris-suave);
+            color: var(--texto-oscuro);
+        }
+
+        header {
+            background-color: var(--verde-pastel);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--texto-oscuro);
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: var(--blanco);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .productos, .fragancias, .contacto {
+            padding: 2rem;
+        }
+
+        .producto-item {
+            background-color: var(--blanco);
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .producto-item img {
+            width: 100px;
+            height: auto;
+            margin-right: 1rem;
+            border-radius: 8px;
+        }
+
+        .fragancias ul {
+            margin-top: 1rem;
+            list-style: disc;
+            padding-left: 1.5rem;
+        }
+
+        .contacto p {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            background-color: var(--verde-pastel);
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Syra Aromas</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#fragancias">Fragancias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Difusores & Aromas que inspiran</h2>
+        <p>Bienvenidos a Syra, donde cada aroma cuenta una historia.</p>
+    </section>
+
+    <section class="productos" id="productos">
+        <h3>Nuestros Productos</h3>
+        <div class="producto-item">
+            <img src="C:\Users\gscar\OneDrive\Escritorio\syra.html\imagenes\home_spray.png.jpeg" alt="Home Spray">
+            <div>
+
+                <h4>Home Spray</h4>
+                <p>Aromatiza tus espacios con elegancia y frescura.</p>
+
+
+</div>
+
+
+
+        </div>
+        <div class="producto-item">
+            <img src="C:\Users\gscar\OneDrive\Escritorio\syra.html\imagenes\difusor_petaca.png.jpeg" alt="Difusor Petaca">
+            <div>
+                <h4>Difusor Petaca</h4>
+                <p>Estilo y fragancia en un solo objeto decorativo.</p>
+            </div>
+        </div>
+        <div class="producto-item">
+            <img src="C:\Users\gscar\OneDrive\Escritorio\syra.html\imagenes\mini_difusor.png.jpeg" alt="Mini Difusor">
+            <div>
+                <h4>Mini Difusor</h4>
+                <p>Perfecto para autos y placards. Aromas en todos lados.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fragancias" id="fragancias">
+    <h3>Nuestras Fragancias</h3>
+
+    <details>
+        <summary><strong>After Hour</strong></summary>
+        <p>Fragancia fresca y afrutada, con bergamota, limón, manzana y un toque tropical. Notas florales de jazmín y un fondo cálido de cedro y vainilla.</p>
+    </details>
+
+    <details>
+        <summary><strong>Ananá Rosa</strong></summary>
+        <p>Fragancia fresca y afrutada, con piña, melón, durazno, fresa y manzana. Un toque floral de ciclamen y violeta, con un fondo cálido y almizclado.</p>
+    </details>
+
+    <details>
+        <summary><strong>Caramelo de Limón</strong></summary>
+        <p>Fragancia fresca y cítrica, con cáscara de limón, flor de naranjo y matices herbales. Un fondo suave de almizcle.</p>
+    </details>
+
+    <details>
+        <summary><strong>Cerezo en Flor</strong></summary>
+        <p>Fragancia fresca y afrutada con manzana, fresa y durazno. Un toque floral de rosa y jazmín, con fondo cálido de vainilla y maderas.</p>
+    </details>
+
+    <details>
+        <summary><strong>Cher</strong></summary>
+        <p>Fragancia fresca y floral, con bergamota, mandarina, jazmín y un toque cálido de almizcle y maderas.</p>
+    </details>
+
+    <details>
+        <summary><strong>Chai Tea</strong></summary>
+        <p>Fragancia cálida y especiada, con pimienta negra, cardamomo y canela, complementada con un toque fresco de pomelo y té negro. Un fondo suave de vainilla y sándalo.</p>
+    </details>
+
+    <details>
+        <summary><strong>Coco Vainilla</strong></summary>
+        <p>Fragancia dulce y exótica, con vainilla, coco y un toque floral delicado. Un fondo cálido de dulce de leche, ámbar y almizcles.</p>
+    </details>
+
+    <details>
+        <summary><strong>Limonada de Frambuesa</strong></summary>
+        <p>Fragancia fresca y afrutada, con notas de frambuesa, limón, damasco y caramelo. Un fondo suave de ámbar.</p>
+    </details>
+</section>
+
+
+    <section class="contacto" id="contacto">
+        <h3>Contacto</h3>
+        <p>Instagram: <a href="https://instagram.com/syra_aromas" target="_blank">@syra_aromas</a></p>
+        <p>WhatsApp: <a href="https://wa.me/541159149944" target="_blank">1159149944</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Syra Aromas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
